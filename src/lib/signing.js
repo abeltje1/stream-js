@@ -1,7 +1,7 @@
 var crypto = require('crypto');
 var jwt = require('jsonwebtoken');
 var JWS_REGEX = /^[a-zA-Z0-9\-_]+?\.[a-zA-Z0-9\-_]+?\.([a-zA-Z0-9\-_]+)?$/;
-var Base64 = require('Base64');
+var Base64 = require('js-base64').Base64;
 
 function makeUrlSafe(s) {
   /*
