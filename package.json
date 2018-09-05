@@ -80,7 +80,7 @@
   },
   "dependencies": {
     "Base64": "^1.0.1",
-    "js-base64": "^2.4.9"
+    "js-base64": "^2.4.9",
     "faye": "^1.2.4",
     "http-signature": "~1.2.0",
     "jsonwebtoken": "^8.3.0",
